@@ -1,0 +1,42 @@
+# maven ignore
+target/
+overlays/
+catalina.base_IS_UNDEFINED/
+# kdiff3 ignore
+*.orig
+# eclipse ignore
+.settings/
+.project
+.classpath
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+rebel.xml
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# system ignore
+.DS_Store
+Thumbs.db
+
+# package ignore (optional)
+*.zip
+*.tar
+*.tar.gz
+
+#mybatis tools
+generatorConfig.xml
+generatorConfig.properties
+
+#swagger
+swagger.properties
+
+
